@@ -1,0 +1,13 @@
+﻿<Window x:Class="Array.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+        Background="Bisque">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="60,66,0,0" TextWrapping="Wrap" Text="Ket Qua" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="ketqua" HorizontalAlignment="Left" Height="47" Margin="165,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197"/>
+        <Button x:Name="tong" Content="Tong" HorizontalAlignment="Left" Margin="136,171,0,0" VerticalAlignment="Top" Width="75" FontSize="16" FontWeight="Bold" Click="tong_Click"/>
+        <Button x:Name="tongle" Content="Tong le" HorizontalAlignment="Left" Margin="349,171,0,0" VerticalAlignment="Top" Width="75" FontSize="16" FontWeight="Bold" Click="tongle_Click"/>
+
+    </Grid>
+</Window>
